@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: sans-serif;
+  border: none;
+  position: relative;
+}
+
+.monstersDiv {
+  background: linear-gradient(to left, rgb(122, 0, 122), rgb(0, 1, 2));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30rem;
+}
+
+.heroDiv {
+  background: linear-gradient(to right, rgb(0, 50, 167), rgb(0, 0, 0));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.escanor {
+  width: 290rem;
+  border-radius: 200rem;
+  margin-bottom: 15rem;
+}
+
+.heroH1 {
+  color: deepskyblue;
+  font-size: 55rem;
+  padding-top: 50rem;
+  margin-bottom: 10rem;
+}
+
+.boostBtn {
+  font-size: 45rem;
+  background-color: transparent;
+  font-weight: bold;
+  color: deepskyblue;
+  border: 1rem deepskyblue solid;
+  padding: 2rem 30rem 2rem 30rem;
+  border-radius: 20rem;
+  margin-bottom: 35rem;
+}
+
+.boostBtn:hover {
+  background-color: rgb(5, 70, 92);
+}
+
+h3 {
+  font-size: 30rem;
+  color: deepskyblue;
+  border: 1rem deepskyblue solid;
+  padding: 5rem 20rem 5rem 20rem;
+  border-radius: 15rem;
+}
+
+.createMonsterBtn {
+  position: relative;
+  font-weight: bold;
+  font-size: 35rem;
+  border: 1rem purple solid;
+  background-color: transparent;
+  color: hotpink;
+  padding: 10rem 25rem 10rem 25rem;
+  border-radius: 20rem;
+  margin-bottom: 35rem;
+}
+
+.createMonsterBtn:hover {
+  background-color: rgb(74, 1, 74);
+}
+
+.v {
+  font-size: 120rem;
+  color: rgb(192, 192, 192);
+  position: absolute;
+  top: 32%;
+  right: 50%;
+  font-weight: bold;
+}
+
+.s {
+  font-size: 120rem;
+  color: silver;
+  position: absolute;
+  font-weight: bold;
+  top: 35%;
+  left: 50%;
+}
+
+.monsterDiv {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+  margin-bottom: 18rem;
+  padding-left: 50rem;
+}
+
+.monsterPic {
+  width: 170rem;
+  border-radius: 100rem;
+}
+
+.attackCSS {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 18rem;
+  font-weight: bold;
+  padding: 15rem 5rem 15rem 5rem;
+  border-radius: 15rem;
+  border: 1rem purple solid;
+  background-color: transparent;
+  color: hotpink;
+}
+
+.attackCSS:hover {
+  background-color: rgb(74, 1, 74);
+}
+
+.powerCSS {
+  font-size: 25rem;
+  font-weight: bold;
+}
+
+.healthCSS {
+  font-size: 25rem;
+  font-weight: bold;
+}
+
+.powerDiv {
+  padding: 15rem 15rem 15rem 15rem;
+  border-radius: 15rem;
+  border: 1rem purple solid;
+  background-color: transparent;
+  color: hotpink;
+}
+
+.monstersDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
