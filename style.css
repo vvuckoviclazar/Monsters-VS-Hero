@@ -50,6 +50,17 @@ body {
   margin-bottom: 10rem;
 }
 
+.heroFix {
+  padding-top: 0rem;
+}
+
+.innerH1 {
+  color: deepskyblue;
+  font-size: 55rem;
+  padding-top: 40rem;
+  margin-bottom: 10rem;
+}
+
 .boostBtn {
   font-size: 45rem;
   background-color: transparent;
@@ -62,6 +73,21 @@ body {
 }
 
 .boostBtn:hover {
+  background-color: rgb(5, 70, 92);
+}
+
+.restartBtn {
+  font-size: 45rem;
+  background-color: transparent;
+  font-weight: bold;
+  color: deepskyblue;
+  border: 1rem deepskyblue solid;
+  padding: 2rem 30rem 2rem 30rem;
+  border-radius: 20rem;
+  margin-bottom: 35rem;
+}
+
+.restartBtn:hover {
   background-color: rgb(5, 70, 92);
 }
 
